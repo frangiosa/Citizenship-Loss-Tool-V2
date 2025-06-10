@@ -12,18 +12,18 @@
 
     <!-- Home screen -->
     <div id="home" class="bg-white shadow rounded p-6 space-y-4">
-      <h1 class="text-xl font-semibold">Country Select</h1>
+      <h1 class="text-xl font-semibold">Australian citizen acquired citizenship of which country?</h1>
       <button onclick="goTo('uk')" class="block w-full bg-blue-600 text-white px-4 py-2 rounded">United Kingdom</button>
-      <button onclick="goTo('italy')" class="block w-full bg-blue-600 text-white px-4 py-2 rounded">Italy</button>
+      <button onclick="goTo('ireland')" class="block w-full bg-blue-600 text-white px-4 py-2 rounded">Ireland</button>
       <button onclick="goTo('greece')" class="block w-full bg-blue-600 text-white px-4 py-2 rounded">Greece</button>
       <button onclick="goTo('israel')" class="block w-full bg-blue-600 text-white px-4 py-2 rounded">Israel</button>
-      <button onclick="goTo('ireland')" class="block w-full bg-blue-600 text-white px-4 py-2 rounded">Ireland</button>
+      <button onclick="goTo('italy')" class="block w-full bg-blue-600 text-white px-4 py-2 rounded">Italy</button>
     </div>
 
     <!-- Placeholder tabs -->
-    <div id="italy" class="hidden bg-white shadow rounded p-6">
-      <h2 class="text-lg font-semibold">Italy</h2>
-      <p>Information regarding Italy is currently being developed and will be made available in due course.</p>
+    <div id="ireland" class="hidden bg-white shadow rounded p-6">
+      <h2 class="text-lg font-semibold">Ireland</h2>
+      <p>Information regarding Ireland is currently being developed and will be made available in due course.</p>
     </div>
 
     <div id="greece" class="hidden bg-white shadow rounded p-6">
@@ -36,22 +36,33 @@
       <p>Information regarding Israel is currently being developed and will be made available in due course.</p>
     </div>
 
-    <div id="ireland" class="hidden bg-white shadow rounded p-6">
-      <h2 class="text-lg font-semibold">Ireland</h2>
-      <p>Information regarding Ireland is currently being developed and will be made available in due course.</p>
+    <div id="italy" class="hidden bg-white shadow rounded p-6">
+      <h2 class="text-lg font-semibold">Italy</h2>
+      <p>Information regarding Italy is currently being developed and will be made available in due course.</p>
     </div>
 
     <!-- UK steps -->
     <div id="uk" class="hidden bg-white shadow rounded p-6 space-y-4">
-      <h2 class="text-lg font-semibold">Did the Australian Citizen Parent (ACP) acquire UK citizenship?</h2>
-      <button onclick="goTo('uk-no')" class="block w-full bg-blue-600 text-white px-4 py-2 rounded">No</button>
-      <button onclick="goTo('uk-yes')" class="block w-full bg-blue-600 text-white px-4 py-2 rounded">Yes</button>
+      <h2 class="text-lg font-semibold">How did the ACP acquire UK citizenship?</h2>
+<button onclick="goTo('uk-no')" class="block w-full bg-blue-600 text-white px-4 py-2 rounded">Birth (born in UK)</button>
+<button onclick="goTo('uk-yes')" class="block w-full bg-blue-600 text-white px-4 py-2 rounded">Descent (born in Australia or another country, claiming UK citizenship through parents)</button>
+<button onclick="goTo('uk-before-naturalised')" class="block w-full bg-blue-600 text-white px-4 py-2 rounded">Registration / Naturalisation</button>
     </div>
 
     <div id="uk-no" class="hidden bg-white shadow rounded p-6">
-      <h2 class="text-lg font-semibold">Outcome</h2>
-      <p>No loss of Australian citizenship is expected in this case. As the Australian citizen parent (ACP) did not acquire UK citizenship, <strong>Section 17 of the Australian Citizenship Act 1948</strong> does not apply. Therefore, there is no concern regarding the loss of Australian citizenship.</p>
-    </div>
+  <h2 class="text-lg font-semibold">Outcome</h2>
+  <p>
+    The ACP acquired UK citizenship by birth in the United Kingdom. This would generally occur under <strong>section 1(1) of the British Nationality Act 1981</strong>, where a person born in the UK is automatically a British citizen if, at the time of their birth, at least one parent was either a <strong>British citizen</strong> or <strong>settled in the UK</strong>.
+  </p>
+  <br>
+  <p>
+    As the ACP later acquired Australian citizenship <strong>after already holding UK citizenship by birth</strong>, this does not raise concerns under dual citizenship rules.
+  </p>
+  <br>
+  <p>
+    The United Kingdom has permitted <strong>dual citizenship since the commencement of the British Nationality Act 1948</strong>. Therefore, the acquisition of UK citizenship by birth in the UK has not affected the person’s ability to retain <strong>Australian citizenship</strong>. Provided the acquisition was <strong>not a voluntary act, Section 17 of the Australian Citizenship Act 1948</strong> does not apply, and no loss of Australian citizenship occurred</strong>.
+  </p>
+</div>
 
     <div id="uk-yes" class="hidden bg-white shadow rounded p-6 space-y-4">
       <h2 class="text-lg font-semibold">When did the ACP acquire UK citizenship?</h2>
@@ -62,15 +73,15 @@
     <div id="uk-after-2002" class="hidden bg-white shadow rounded p-6">
       <h2 class="text-lg font-semibold">Outcome</h2>
       <p>No loss of Australian citizenship is expected in this case. The Australian Citizenship Act 2007, which came into effect on 01 July 2007, replaced the Australian Citizenship Act 1948 and removed the provision under <strong>Section 17</strong> that previously caused automatic loss of Australian citizenship upon acquiring a foreign citizenship.</p>
- <br><br>
+ <br>
 <p>From <strong>04 April 2002</strong>, the Australian Government allowed dual citizenship, meaning Australian citizens who voluntarily acquire another nationality on or after this date no longer automatically lose their Australian citizenship. Therefore, dual citizenship is permitted from this date onwards.</p>
     </div>
 
     <div id="uk-before-2002" class="hidden bg-white shadow rounded p-6 space-y-4">
       <h2 class="text-lg font-semibold">How did the ACP acquire UK citizenship before 4 April 2002?</h2>
-      <button onclick="goTo('uk-before-father')" class="block w-full bg-blue-600 text-white px-4 py-2 rounded">By descent through the father</button>
-      <button onclick="goTo('uk-before-mother')" class="block w-full bg-blue-600 text-white px-4 py-2 rounded">By descent through the mother</button>
-      <button onclick="goTo('uk-before-naturalised')" class="block w-full bg-blue-600 text-white px-4 py-2 rounded">By naturalisation or registration</button>
+<button onclick="goTo('uk-before-father')" class="block w-full bg-blue-600 text-white px-4 py-2 rounded">By descent through father only</button>
+<button onclick="goTo('uk-before-mother')" class="block w-full bg-blue-600 text-white px-4 py-2 rounded">By descent through the mother only</button>
+<button onclick="goTo('uk-before-naturalised')" class="block w-full bg-blue-600 text-white px-4 py-2 rounded">By descent through both parents</button>
     </div>
 
     <!-- By descent through the father path with new 1 July 2006 question -->
