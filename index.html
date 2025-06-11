@@ -20,12 +20,208 @@
       <button onclick="goTo('italy')" class="block w-full bg-blue-600 text-white px-4 py-2 rounded">Italy</button>
     </div>
 
-    <!-- Placeholder tabs -->
-    <div id="ireland" class="hidden bg-white shadow rounded p-6">
-      <h2 class="text-lg font-semibold">Ireland</h2>
-      <p>Information regarding Ireland is currently being developed and will be made available in due course.</p>
+    <!-- UK Flow -->
+     <div id="uk" class="hidden bg-white shadow rounded p-6 space-y-4">
+      <h2 class="text-lg font-semibold">How did the ACP acquire UK citizenship?</h2>
+<button onclick="goTo('uk-no')" class="block w-full bg-blue-600 text-white px-4 py-2 rounded">Birth (born in UK)</button>
+<button onclick="goTo('uk-yes')" class="block w-full bg-blue-600 text-white px-4 py-2 rounded">Descent (born in Australia or another country, claiming UK citizenship through parents)</button>
+<button onclick="goTo('uk-before-naturalised')" class="block w-full bg-blue-600 text-white px-4 py-2 rounded">Registration / Naturalisation</button>
     </div>
 
+    <div id="uk-no" class="hidden bg-white shadow rounded p-6">
+  <h2 class="text-lg font-semibold">Outcome</h2>
+  <p>
+    The ACP acquired UK citizenship by birth in the United Kingdom. This would generally occur under <strong>section 1(1) of the British Nationality Act 1981</strong>, where a person born in the UK is automatically a British citizen if, at the time of their birth, at least one parent was either a <strong>British citizen</strong> or <strong>settled in the UK</strong>.
+  </p>
+  <br>
+  <p>
+    As the ACP later acquired Australian citizenship <strong>after already holding UK citizenship by birth</strong>, this does not raise concerns under dual citizenship rules.
+  </p>
+  <br>
+  <p>
+    The United Kingdom has permitted <strong>dual citizenship since the commencement of the British Nationality Act 1948</strong>. Therefore, the acquisition of UK citizenship by birth in the UK has not affected the person’s ability to retain <strong>Australian citizenship</strong>. Provided the acquisition was <strong>not a voluntary act, Section 17 of the Australian Citizenship Act 1948</strong> does not apply, and no loss of Australian citizenship occurred</strong>.
+  </p>
+</div>
+
+    <div id="uk-yes" class="hidden bg-white shadow rounded p-6 space-y-4">
+      <h2 class="text-lg font-semibold">When did the ACP acquire UK citizenship?</h2>
+      <button onclick="goTo('uk-after-2002')" class="block w-full bg-blue-600 text-white px-4 py-2 rounded">On or after 4 April 2002</button>
+      <button onclick="goTo('uk-before-2002')" class="block w-full bg-blue-600 text-white px-4 py-2 rounded">Before 4 April 2002</button>
+    </div>
+
+    <div id="uk-after-2002" class="hidden bg-white shadow rounded p-6">
+      <h2 class="text-lg font-semibold">Outcome</h2>
+      <p>No loss of Australian citizenship is expected in this case. The Australian Citizenship Act 2007, which came into effect on 01 July 2007, replaced the Australian Citizenship Act 1948 and removed the provision under <strong>Section 17</strong> that previously caused automatic loss of Australian citizenship upon acquiring a foreign citizenship.</p>
+ <br>
+<p>From <strong>04 April 2002</strong>, the Australian Government allowed dual citizenship, meaning Australian citizens who voluntarily acquire another nationality on or after this date no longer automatically lose their Australian citizenship. Therefore, dual citizenship is permitted from this date onwards.</p>
+    </div>
+
+    <div id="uk-before-2002" class="hidden bg-white shadow rounded p-6 space-y-4">
+      <h2 class="text-lg font-semibold">How did the ACP acquire UK citizenship before 4 April 2002?</h2>
+<button onclick="goTo('uk-before-father')" class="block w-full bg-blue-600 text-white px-4 py-2 rounded">By descent through father only</button>
+<button onclick="goTo('uk-before-mother')" class="block w-full bg-blue-600 text-white px-4 py-2 rounded">By descent through the mother only</button>
+<button onclick="goTo('uk-before-naturalised')" class="block w-full bg-blue-600 text-white px-4 py-2 rounded">By descent through both parents</button>
+    </div>
+
+    <!-- By descent through the father path with new 1 July 2006 question -->
+    <div id="uk-before-father" class="hidden bg-white shadow rounded p-6 space-y-4">
+      <h2 class="text-lg font-semibold">Was the ACP born before 1 July 2006?</h2>
+      <button onclick="goTo('born-before-2006')" class="block w-full bg-blue-600 text-white px-4 py-2 rounded">Yes</button>
+      <button onclick="goTo('born-on-or-after-2006')" class="block w-full bg-blue-600 text-white px-4 py-2 rounded">No</button>
+    </div>
+
+    <div id="born-before-2006" class="hidden bg-white shadow rounded p-6 space-y-4">
+      <h2 class="text-lg font-semibold">Was the father married at the time of the ACP's birth?</h2>
+      <button onclick="goTo('father-married')" class="block w-full bg-blue-600 text-white px-4 py-2 rounded">Yes</button>
+      <button onclick="goTo('father-not-married')" class="block w-full bg-blue-600 text-white px-4 py-2 rounded">No</button>
+    </div>
+
+    <div id="born-on-or-after-2006" class="hidden bg-white shadow rounded p-6">
+      <h2 class="text-lg font-semibold">Outcome</h2>
+      <p>As the Australian citizen parent (ACP) was born on or after 1 July 2006, UK citizenship by descent may be transmitted through the father, <strong>regardless of the parents’ marital status</strong>.  This follows the amendments to the British Nationality Act 1981 made by the Borders, Citizenship and Immigration Act 2009, which removed the requirement for legitimacy in the transmission of British citizenship. These changes took effect from <strong>01 July 2006</strong>.
+  <br><br>
+There is <strong>no automatic loss of Australian citizenship</strong>, as dual citizenship is permitted under Australian law.</p>
+    </div>
+
+    <div id="father-married" class="hidden bg-white shadow rounded p-6">
+      <h2 class="text-lg font-semibold">Outcome</h2>
+      <p>If the father was married to the mother at the time of the ACP’s birth and was a British citizen otherwise than by descent, then the ACP would have <strong>automatically acquired UK citizenship by descent at birth</strong> under the British Nationality Act 1981.
+  <br><br>
+If this occurred <strong>prior to 4 April 2002, Section 17 of the Australian Citizenship Act 1948</strong> may be relevant. However, <strong>automatic acquisition of foreign citizenship by descent at birth does not constitute a voluntary act</strong>, and therefore <strong>does not result in the loss of Australian citizenship</strong> under Section 17.
+  <br><br>
+Accordingly, the ACP would be <strong>eligible for UK citizenship by descent</strong> through the father, and <strong>no automatic loss of Australian citizenship applies</strong>.</p>
+    </div>
+
+    <div id="father-not-married" class="hidden bg-white shadow rounded p-6">
+      <h2 class="text-lg font-semibold">Outcome</h2>
+      <p>If the father was <strong>not married</strong> to the mother at the time of the ACP’s birth, the ability to transmit <strong>UK citizenship by descent</strong> prior to <strong>1 July 2006</strong> depended on the concept of <strong>legitimacy</strong> and the legislation in effect at that time. Under the <strong>British Nationality Act 1981</strong>, prior to its amendment by the <strong>Nationality, Immigration and Asylum Act 2002</strong>, a child born <strong>outside of marriage</strong> could <strong>not automatically acquire British citizenship</strong> through the father.
+  <br><br>
+Therefore, where the ACP was born <strong>before 1 July 2006</strong> and the parents were not married, it is unlikely that UK citizenship was acquired by descent through the father—unless subsequent legitimation occurred under UK law, or citizenship was acquired through other means (e.g. registration under Section 3(1) of the British Nationality Act 1981).
+  <br><br>
+As such, <strong>further investigation may be required</strong> to confirm <strong>how the ACP acquired UK citizenship</strong>, if claimed.</p>
+    </div>
+
+    <!-- By descent through the mother -->
+    <div id="uk-before-mother" class="hidden bg-white shadow rounded p-6 space-y-4">
+      <h2 class="text-lg font-semibold">Was the ACP born before 1 January 1983?</h2>
+      <button onclick="goTo('mother-before-1983')" class="block w-full bg-blue-600 text-white px-4 py-2 rounded">Yes</button>
+      <button onclick="goTo('mother-on-or-after-1983')" class="block w-full bg-blue-600 text-white px-4 py-2 rounded">No</button>
+    </div>
+
+    <div id="mother-before-1983" class="hidden bg-white shadow rounded p-6">
+      <h2 class="text-lg font-semibold">Outcome</h2>
+      <p>Prior to <strong>1 January 1983</strong>, under the British Nationality Act 1948, <strong>UK citizenship by descent could only be transmitted through the father</strong>. The mother could not pass on citizenship unless the child was born in the UK or registered through other provisions.
+  <br><br>
+As a result, if UK citizenship is being claimed and the ACP was born <strong>before 1 January 1983</strong> to a <strong>British mother and a non-British father, further investigation is required</strong> to confirm how UK citizenship may have been acquired.
+  <br><br>
+This restriction changed with the commencement of the British Nationality Act 1981 on <strong>1 January 1983</strong>, which introduced limited rights for maternal transmission. However, automatic transmission through the mother for those born before that date only became possible later through <strong>registration provisions</strong> (e.g. Section 4C of the British Nationality Act 1981, inserted by the Nationality, Immigration and Asylum Act 2002).</p>
+    </div>
+
+    <div id="mother-on-or-after-1983" class="hidden bg-white shadow rounded p-6">
+      <h2 class="text-lg font-semibold">Outcome</h2>
+      <p>From <strong>1 January 1983</strong>, following the commencement of the British Nationality Act 1981, <strong>UK citizenship by descent can be transmitted through the mother</strong>, provided she was a British citizen otherwise than by descent at the time of the child’s birth.
+  <br><br>
+If UK citizenship is being <strong>claimed on this basis</strong>, and the acquisition occurred <strong>before 4 April 2002, Section 17 of the Australian Citizenship Act 1948</strong> does <strong>not apply</strong>, as <strong>automatic acquisition of foreign citizenship by descent is not considered a voluntary act</strong>. Therefore, <strong>no automatic loss of Australian citizenship would have occurred</strong> in these circumstances.</p>
+    </div>
+
+    <!-- By naturalisation or registration -->
+    <div id="uk-before-naturalised" class="hidden bg-white shadow rounded p-6">
+      <h2 class="text-lg font-semibold">Outcome</h2>
+      <p>If the ACP <strong>acquired UK citizenship by naturalisation or registration prior to 4 April 2002, Section 17 of the Australian Citizenship Act 1948</strong> may apply. Under this provision, <strong>Australian citizenship was automatically lost</strong> if a person voluntarily acquired the nationality of another country, unless they had obtained prior permission to retain their Australian citizenship.
+  <br><br>
+As such, <strong>further details</strong> regarding the <strong>exact date, method, and circumstances of the UK citizenship acquisition</strong> are required to determine whether <strong>automatic loss of Australian citizenship occurred</strong>.</p>
+    </div>
+
+    <!-- Ireland Flow -->
+    <div id="ireland" class="bg-white shadow rounded p-6 space-y-4 hidden">
+      <h2 class="text-lg font-semibold">How did the ACP acquire Irish Citizenship?</h2>
+      <button onclick="goTo('ireland-birth')" class="block w-full bg-blue-600 text-white px-4 py-2 rounded">Birth (born in Ireland)</button>
+      <button onclick="goTo('ireland-descent')" class="block w-full bg-blue-600 text-white px-4 py-2 rounded">Descent (through parent/grandparent)</button>
+      <button onclick="goTo('ireland-registration')" class="block w-full bg-blue-600 text-white px-4 py-2 rounded">Registration / Naturalisation</button>
+    </div>
+
+    <div id="ireland-birth" class="bg-white shadow rounded p-6 space-y-4 hidden">
+  <h2 class="text-lg font-semibold">Was the ACP born in Ireland before or after 1 January 2005?</h2>
+  <button onclick="goTo('ireland-birth-before-2005')" class="block w-full bg-blue-600 text-white px-4 py-2 rounded">Before 1 January 2005</button>
+  <button onclick="goTo('ireland-birth-after-2005')" class="block w-full bg-blue-600 text-white px-4 py-2 rounded">On or after 1 January 2005</button>
+</div>
+
+<!-- Outcome screen: Born Before 2005 -->
+<div id="ireland-birth-before-2005" class="bg-white shadow rounded p-6 space-y-4 hidden">
+  <p>If the ACP was born in Ireland <strong>before 1 January 2005</strong>, they likely <strong>acquired Irish citizenship automatically at birth</strong>. Ireland has allowed <strong>dual citizenship since 1956</strong>, so this would not have prevented acquiring Australian citizenship. 
+<br><br>
+Since Australian citizenship in this case would have been acquired <strong>after birth by descent or another method (not by birth), loss of Australian citizenship under Section 17, which applied before 4 April 2002, generally would not apply</strong>.</p>
+</div>
+
+<!-- Outcome screen: Born After 2005 -->
+<div id="ireland-birth-after-2005" class="bg-white shadow rounded p-6 space-y-4 hidden">
+  <p>From <strong>1 January 2005</strong>, birth in Ireland <strong>does not automatically confer Irish citizenship</strong> unless <strong>at least one parent was an Irish citizen or entitled to reside in Ireland</strong> at the time of birth.
+<br><br>
+If it is unclear whether these criteria were met, acquisition of Irish citizenship may have occurred by <strong>naturalisation or registration</strong>. The case officer should <strong>consider the possible risk of loss of Australian citizenship</strong> under Section 17 of the Australian Citizenship Act 1948.</p>
+</div>
+
+    <!-- Irish Descent Step -->
+<div id="ireland-descent" class="hidden bg-white shadow rounded p-6 space-y-4">
+  <h2 class="text-lg font-semibold">Was the ACP's parent born in Ireland?</h2>
+  <button onclick="goTo('ireland-descent-parent')" class="block w-full bg-blue-600 text-white px-4 py-2 rounded">Yes</button>
+  <button onclick="goTo('ireland-grandparent')" class="block w-full bg-blue-600 text-white px-4 py-2 rounded">No – grandparent only</button>
+</div>
+
+<!-- Parent-based Descent Outcome -->
+<div id="ireland-descent-parent" class="hidden bg-white shadow rounded p-6">
+  <h2 class="text-lg font-semibold">Outcome</h2>
+  <p>
+    The ACP is claiming Irish citizenship through a <strong>parent born in Ireland</strong>. Under Irish law, a person born outside of Ireland to a parent who is an Irish citizen (by birth in Ireland) is automatically an Irish citizen by descent.
+    <br><br>
+    As this is an <strong>automatic acquisition of citizenship by descent</strong>, it is <strong>not a voluntary act</strong> under Section 17 of the Australian Citizenship Act 1948.
+    <br><br>
+    Therefore, <strong>no loss of Australian citizenship occurred</strong> when the ACP acquired Irish citizenship through an Irish-born parent.
+  </p>
+</div>
+
+<!-- Grandparent path -->
+<div id="ireland-grandparent" class="hidden bg-white shadow rounded p-6 space-y-4">
+  <h2 class="text-lg font-semibold">Was the ACP registered in the Foreign Births Register?</h2>
+  <button onclick="goTo('ireland-fbr-yes')" class="block w-full bg-blue-600 text-white px-4 py-2 rounded">Yes</button>
+  <button onclick="goTo('ireland-fbr-no')" class="block w-full bg-blue-600 text-white px-4 py-2 rounded">No / Unsure</button>
+</div>
+
+<!-- Registered in FBR -->
+<div id="ireland-fbr-yes" class="hidden bg-white shadow rounded p-6">
+  <h2 class="text-lg font-semibold">Outcome</h2>
+  <p>
+    The ACP was <strong>registered in the Foreign Births Register (FBR)</strong> based on descent from an Irish grandparent. Irish citizenship in this case is <strong>not automatic at birth</strong>—it is only conferred on the <strong>date of FBR registration</strong>.
+    <br><br>
+    If this FBR registration occurred <strong>before 4 April 2002</strong>, it may be considered a <strong>voluntary act</strong> under Section 17 of the Australian Citizenship Act 1948, and the ACP <strong>may have lost their Australian citizenship</strong> unless prior retention permission was granted.
+    <br><br>
+    If the FBR registration occurred <strong>on or after 4 April 2002</strong>, no loss of Australian citizenship occurred, as Australia permitted dual citizenship from that date.
+  </p>
+</div>
+
+<!-- Not registered / unsure -->
+<div id="ireland-fbr-no" class="hidden bg-white shadow rounded p-6">
+  <h2 class="text-lg font-semibold">Outcome</h2>
+  <p>
+    The ACP has not been registered in the <strong>Foreign Births Register (FBR)</strong> or is unsure. Irish citizenship by descent through a grandparent <strong>is not automatic</strong>; it must be acquired by registering in the FBR.
+    <br><br>
+    As the ACP was <strong>not registered</strong> (or status is uncertain), they are likely <strong>not currently an Irish citizen</strong>.
+    <br><br>
+    Therefore, <strong>no loss of Australian citizenship occurred</strong>, as the ACP did not acquire a foreign citizenship.
+  </p>
+</div>
+
+    <div id="ireland-registration" class="bg-white shadow rounded p-6 space-y-4 hidden">
+      <p>If the ACP <strong>acquired Irish citizenship by naturalisation or registration prior to 4 April 2002, Section 17 of the Australian Citizenship Act 1948</strong> may apply. Under this provision, <strong>Australian citizenship was automatically lost</strong> if a person voluntarily acquired the nationality of another country, unless they had obtained prior permission to retain their Australian citizenship.
+  <br><br>
+As such, <strong>further details</strong> regarding the <strong>exact date, method, and circumstances of the Irish citizenship acquisition</strong> are required to determine whether <strong>automatic loss of Australian citizenship occurred</strong>.</p>
+    </div>
+
+<div id="ireland-on-or-after-2005" class="hidden bg-white shadow rounded p-6">
+  <h2 class="text-lg font-semibold">Outcome</h2>
+  <p>ACP was born in Ireland on or after 1 January 2005. Eligibility for Irish citizenship depends on whether at least one parent was an Irish citizen or entitled to reside in Ireland or Northern Ireland without restriction at the time of birth.</p>
+</div>
+
+<!-- Placeholder tabs -->
     <div id="greece" class="hidden bg-white shadow rounded p-6">
       <h2 class="text-lg font-semibold">Greece</h2>
       <p>Information regarding Greece is currently being developed and will be made available in due course.</p>
@@ -157,32 +353,26 @@ As such, <strong>further details</strong> regarding the <strong>exact date, meth
 
   <script>
     const steps = [
-      "home", "italy", "greece", "israel", "ireland", "uk", "uk-no", "uk-yes",
-      "uk-after-2002", "uk-before-2002",
-      "uk-before-father", "born-before-2006", "born-on-or-after-2006", "father-married", "father-not-married",
-      "uk-before-mother", "mother-before-1983", "mother-on-or-after-1983",
-      "uk-before-naturalised"
-    ];
+  "home", "uk", "uk-no", "uk-yes", "uk-after-2002", "uk-before-2002",
+  "uk-before-father", "born-before-2006", "born-on-or-after-2006", "father-married", "father-not-married",
+  "uk-before-mother", "mother-before-1983", "mother-on-or-after-1983", "uk-before-naturalised",
+  "ireland", "ireland-birth", "ireland-birth-before-2005", "ireland-birth-after-2005",
+  "ireland-descent", "ireland-descent-parent", "ireland-grandparent", "ireland-fbr-yes", "ireland-fbr-no", "ireland-registration",
+  "greece", "israel", "italy"
+];
 
     let historyStack = [];
 
     function goTo(stepId) {
-      // Hide all steps
       steps.forEach(id => {
         document.getElementById(id).classList.add('hidden');
       });
-
-      // Show requested step
       document.getElementById(stepId).classList.remove('hidden');
-
-      // Manage back button visibility
       if (historyStack.length === 0) {
         document.getElementById('backButton').classList.add('hidden');
       } else {
         document.getElementById('backButton').classList.remove('hidden');
       }
-
-      // Push to history unless coming from back button
       if (!historyStack.length || historyStack[historyStack.length - 1] !== stepId) {
         historyStack.push(stepId);
       }
@@ -190,15 +380,12 @@ As such, <strong>further details</strong> regarding the <strong>exact date, meth
 
     document.getElementById('backButton').addEventListener('click', () => {
       if (historyStack.length > 1) {
-        // Remove current step
         historyStack.pop();
-        // Go to previous step
         const prevStep = historyStack.pop();
         goTo(prevStep);
       }
     });
 
-    // Start on home
     goTo('home');
   </script>
 </body>
